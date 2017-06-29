@@ -34203,7 +34203,7 @@ exports.default = Home;
 
 
 Object.defineProperty(exports, "__esModule", {
-   value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -34225,22 +34225,210 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var About = function (_React$Component) {
-   _inherits(About, _React$Component);
+    _inherits(About, _React$Component);
 
-   function About() {
-      _classCallCheck(this, About);
+    function About() {
+        _classCallCheck(this, About);
 
-      return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
-   }
+        return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
+    }
 
-   _createClass(About, [{
-      key: 'render',
-      value: function render() {
-         return _react2.default.createElement('div', null);
-      }
-   }]);
+    _createClass(About, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'section',
+                { id: 'about' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'container' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-lg-12 text-center' },
+                            _react2.default.createElement(
+                                'h2',
+                                { className: 'section-heading' },
+                                'About Me!'
+                            ),
+                            _react2.default.createElement(
+                                'h3',
+                                { className: 'section-subheading text-muted' },
+                                'A consioutious individual with disciplined approach to learning and delivery. I enjoy problem solving and passionate about applying technology to create business solutions and solve social issues. Here\'s a road map to where I am, have a look at my ',
+                                _react2.default.createElement(
+                                    _reactRouterDom.Link,
+                                    { to: '/portfolio' },
+                                    'portfolio'
+                                ),
+                                '  for acquired skills and complishments so far '
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-lg-12' },
+                            _react2.default.createElement(
+                                'ul',
+                                { className: 'timeline' },
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    _react2.default.createElement('div', { className: 'timeline-image' }),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'timeline-panel' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-heading' },
+                                            _react2.default.createElement(
+                                                'h4',
+                                                null,
+                                                'December 2014'
+                                            ),
+                                            _react2.default.createElement(
+                                                'h5',
+                                                { className: 'subheading' },
+                                                'Graduated with a BSc in Computer Science'
+                                            )
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-body' },
+                                            _react2.default.createElement(
+                                                'p',
+                                                { className: 'text-muted' },
+                                                'Attained a degree in Computer Science and Business Computing from University of Cape Town.'
+                                            )
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    { className: 'timeline-inverted' },
+                                    _react2.default.createElement('div', { className: 'timeline-image' }),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'timeline-panel' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-heading' },
+                                            _react2.default.createElement(
+                                                'h4',
+                                                null,
+                                                'December 2015'
+                                            ),
+                                            _react2.default.createElement(
+                                                'h5',
+                                                { className: 'subheading' },
+                                                'Honours in Information Systems'
+                                            )
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-body' },
+                                            _react2.default.createElement(
+                                                'p',
+                                                { className: 'text-muted' },
+                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+                                            )
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    _react2.default.createElement('div', { className: 'timeline-image' }),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'timeline-panel' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-heading' },
+                                            _react2.default.createElement(
+                                                'h4',
+                                                null,
+                                                'January 2016'
+                                            ),
+                                            _react2.default.createElement(
+                                                'h5',
+                                                { className: 'subheading' },
+                                                'Joined Saratoga'
+                                            )
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-body' },
+                                            _react2.default.createElement(
+                                                'p',
+                                                { className: 'text-muted' },
+                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+                                            )
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    { className: 'timeline-inverted' },
+                                    _react2.default.createElement('div', { className: 'timeline-image' }),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'timeline-panel' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-heading' },
+                                            _react2.default.createElement(
+                                                'h4',
+                                                null,
+                                                'July 2017'
+                                            ),
+                                            _react2.default.createElement(
+                                                'h5',
+                                                { className: 'subheading' },
+                                                'Launched my career in Tanzania'
+                                            )
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'timeline-body' },
+                                            _react2.default.createElement(
+                                                'p',
+                                                { className: 'text-muted' },
+                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+                                            )
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    { className: 'timeline-inverted' },
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'timeline-image' },
+                                        _react2.default.createElement(
+                                            'h4',
+                                            null,
+                                            'Be Part',
+                                            _react2.default.createElement('br', null),
+                                            'Of My',
+                                            _react2.default.createElement('br', null),
+                                            'Story!'
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
 
-   return About;
+    return About;
 }(_react2.default.Component);
 
 exports.default = About;
@@ -34253,7 +34441,7 @@ exports.default = About;
 
 
 Object.defineProperty(exports, "__esModule", {
-   value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -34275,22 +34463,106 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Contact = function (_React$Component) {
-   _inherits(Contact, _React$Component);
+    _inherits(Contact, _React$Component);
 
-   function Contact() {
-      _classCallCheck(this, Contact);
+    function Contact() {
+        _classCallCheck(this, Contact);
 
-      return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
-   }
+        return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+    }
 
-   _createClass(Contact, [{
-      key: 'render',
-      value: function render() {
-         return _react2.default.createElement('div', null);
-      }
-   }]);
+    _createClass(Contact, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'section',
+                { id: 'contact' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'container' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-lg-12 text-center' },
+                            _react2.default.createElement(
+                                'h2',
+                                { className: 'section-heading' },
+                                'Contact'
+                            ),
+                            _react2.default.createElement(
+                                'h3',
+                                { className: 'section-subheading text-muted' },
+                                'Contact me if for any of my services'
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-lg-12' },
+                            _react2.default.createElement(
+                                'form',
+                                { name: 'sentMessage', id: 'contactForm', novalidate: true },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'row' },
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'col-md-6' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'form-group' },
+                                            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Your Name *', id: 'name', required: true, 'data-validation-required-message': 'Please enter your name.' }),
+                                            _react2.default.createElement('p', { className: 'help-block text-danger' })
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'form-group' },
+                                            _react2.default.createElement('input', { type: 'email', className: 'form-control', placeholder: 'Your Email *', id: 'email', required: true, 'data-validation-required-message': 'Please enter your email address.' }),
+                                            _react2.default.createElement('p', { className: 'help-block text-danger' })
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'form-group' },
+                                            _react2.default.createElement('input', { type: 'tel', className: 'form-control', placeholder: 'Your Phone *', id: 'phone', required: true, 'data-validation-required-message': 'Please enter your phone number.' }),
+                                            _react2.default.createElement('p', { className: 'help-block text-danger' })
+                                        )
+                                    ),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'col-md-6' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'form-group' },
+                                            _react2.default.createElement('textarea', { className: 'form-control', placeholder: 'Your Message *', id: 'message', required: true, 'data-validation-required-message': 'Please enter a message.' }),
+                                            _react2.default.createElement('p', { className: 'help-block text-danger' })
+                                        )
+                                    ),
+                                    _react2.default.createElement('div', { className: 'clearfix' }),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'col-lg-12 text-center' },
+                                        _react2.default.createElement('div', { id: 'success' }),
+                                        _react2.default.createElement(
+                                            'button',
+                                            { type: 'submit', className: 'btn btn-xl' },
+                                            'Send Message'
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
 
-   return Contact;
+    return Contact;
 }(_react2.default.Component);
 
 exports.default = Contact;
@@ -34356,7 +34628,12 @@ var Services = function (_React$Component) {
                             _react2.default.createElement(
                                 'h3',
                                 { className: 'section-subheading text-muted' },
-                                'Here\'s what I do, and what I can offer.'
+                                'Here\'s what I do, and what I can offer you. So drop me a ',
+                                _react2.default.createElement(
+                                    _reactRouterDom.Link,
+                                    { to: '/contact' },
+                                    'message'
+                                )
                             )
                         )
                     ),
@@ -34506,7 +34783,7 @@ exports.default = Services;
 
 
 Object.defineProperty(exports, "__esModule", {
-   value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -34528,22 +34805,212 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Portfolio = function (_React$Component) {
-   _inherits(Portfolio, _React$Component);
+    _inherits(Portfolio, _React$Component);
 
-   function Portfolio() {
-      _classCallCheck(this, Portfolio);
+    function Portfolio() {
+        _classCallCheck(this, Portfolio);
 
-      return _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).apply(this, arguments));
-   }
+        return _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).apply(this, arguments));
+    }
 
-   _createClass(Portfolio, [{
-      key: 'render',
-      value: function render() {
-         return _react2.default.createElement('div', null);
-      }
-   }]);
+    _createClass(Portfolio, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'section',
+                { id: 'portfolio', className: 'bg-light-gray' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'container' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-lg-12 text-center' },
+                            _react2.default.createElement(
+                                'h2',
+                                { className: 'section-heading' },
+                                'Portfolio'
+                            ),
+                            _react2.default.createElement(
+                                'h3',
+                                { className: 'section-subheading text-muted' },
+                                'Projects I have worked on so far'
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal1', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/image-iol.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Independent Online'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Website Development'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal2', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/african-independent_rev.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'African Independent'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Website Development'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal3', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/flexi.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Employee Productivity Dashboard'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Business Analyst & System Development'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal3', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/BPMN.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Cemetry Booking Process- City of Cape Town'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Business Process Redesign/ ERP'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal4', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/cas.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Career Advisor System'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Software Development'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal5', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/effcommlogo.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Client Relationship Management Portal'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Software Development'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-4 col-sm-6 portfolio-item' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#portfolioModal6', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                _react2.default.createElement('img', { src: 'img/portfolio/analytics.png', className: 'img-responsive', alt: '' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Personal Analytics'
+                                ),
+                                _react2.default.createElement(
+                                    'p',
+                                    { className: 'text-muted' },
+                                    'Data visualization'
+                                )
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
 
-   return Portfolio;
+    return Portfolio;
 }(_react2.default.Component);
 
 exports.default = Portfolio;

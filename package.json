@@ -50,5 +50,8 @@
     "object-assign": "^4.1.1",
     "react": "^15.6.1",
     "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.5.0"
   }
 }
