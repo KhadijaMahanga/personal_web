@@ -10,7 +10,7 @@ export default class About extends React.Component {
                   <div className="row">
                       <div className="col-lg-12 text-center">
                           <h2 className="section-heading">About Me!</h2>
-                          <h3 className="section-subheading text-muted">A consioutious individual with disciplined approach to learning and delivery. I enjoy problem solving and passionate about applying technology to create business solutions and solve social issues. Here's a road map to where I am, have a look at my <Link to="/portfolio">portfolio</Link>  for acquired skills and complishments so far </h3>
+                          <h3 className="section-subheading text-muted">I am a software developer and an aspiring data scientist located in Dar-es-salaam, Tanzania. I enjoy problem solving and passionate about applying technology to create business solutions and solve social issues. Here's a road map to where I am, have a look at my <Link to="/portfolio">portfolio</Link>  for acquired skills and complishments so far </h3>
                       </div>
                   </div>
                   <div className="row">
@@ -38,7 +38,7 @@ export default class About extends React.Component {
                                           <h5 className="subheading">Honours in Information Systems</h5>
                                       </div>
                                       <div className="timeline-body">
-                                          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                          <p className="text-muted">Finished a one year Honours course in Information Systems.</p>
                                       </div>
                                   </div>
                               </li>
@@ -50,7 +50,7 @@ export default class About extends React.Component {
                                           <h5 className="subheading">Joined Saratoga</h5>
                                       </div>
                                       <div className="timeline-body">
-                                          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                          <p className="text-muted">Joined a software company in Capetown, South Africa as a Technology Consultant, developer.</p>
                                       </div>
                                   </div>
                               </li>
@@ -62,7 +62,7 @@ export default class About extends React.Component {
                                           <h5 className="subheading">Launched my career in Tanzania</h5>
                                       </div>
                                       <div className="timeline-body">
-                                          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                          <p className="text-muted">Working in Tanzania as a freelancer in information technology projects</p>
                                       </div>
                                   </div>
                               </li>

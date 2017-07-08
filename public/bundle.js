@@ -19475,8 +19475,7 @@ _reactDom2.default.render(_react2.default.createElement(
       _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _About2.default }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/services', component: _Services2.default }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/portfolio', component: _Portfolio2.default }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/blog', component: _Blog2.default })
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default })
    )
 ), document.getElementById('container'));
 
@@ -33962,8 +33961,8 @@ var Main = function (_React$Component) {
                                 _react2.default.createElement('i', { className: 'fa fa-bars' })
                             ),
                             _react2.default.createElement(
-                                'a',
-                                { className: 'navbar-brand page-scroll', href: '#page-top' },
+                                _reactRouterDom.Link,
+                                { to: '/', className: 'navbar-brand page-scroll' },
                                 'Khadija Bhamiji Mahanga'
                             )
                         ),
@@ -34256,7 +34255,7 @@ var About = function (_React$Component) {
                             _react2.default.createElement(
                                 'h3',
                                 { className: 'section-subheading text-muted' },
-                                'A consioutious individual with disciplined approach to learning and delivery. I enjoy problem solving and passionate about applying technology to create business solutions and solve social issues. Here\'s a road map to where I am, have a look at my ',
+                                'I am a software developer and an aspiring data scientist located in Dar-es-salaam, Tanzania. I enjoy problem solving and passionate about applying technology to create business solutions and solve social issues. Here\'s a road map to where I am, have a look at my ',
                                 _react2.default.createElement(
                                     _reactRouterDom.Link,
                                     { to: '/portfolio' },
@@ -34334,7 +34333,7 @@ var About = function (_React$Component) {
                                             _react2.default.createElement(
                                                 'p',
                                                 { className: 'text-muted' },
-                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+                                                'Finished a one year Honours course in Information Systems.'
                                             )
                                         )
                                     )
@@ -34366,7 +34365,7 @@ var About = function (_React$Component) {
                                             _react2.default.createElement(
                                                 'p',
                                                 { className: 'text-muted' },
-                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+                                                'Joined a software company in Capetown, South Africa as a Technology Consultant, developer.'
                                             )
                                         )
                                     )
@@ -34398,7 +34397,7 @@ var About = function (_React$Component) {
                                             _react2.default.createElement(
                                                 'p',
                                                 { className: 'text-muted' },
-                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+                                                'Working in Tanzania as a freelancer in information technology projects'
                                             )
                                         )
                                     )
@@ -34494,7 +34493,7 @@ var Contact = function (_React$Component) {
                             _react2.default.createElement(
                                 'h3',
                                 { className: 'section-subheading text-muted' },
-                                'Contact me if for any of my services'
+                                'Feel free to contact me if for any of my services'
                             )
                         )
                     ),
@@ -34642,27 +34641,27 @@ var Services = function (_React$Component) {
                         { className: 'row text-center' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-4' },
+                            { className: 'col-md-3' },
                             _react2.default.createElement(
                                 'span',
                                 { className: 'fa-stack fa-4x' },
                                 _react2.default.createElement('i', { className: 'fa fa-circle fa-stack-2x text-primary' }),
-                                _react2.default.createElement('i', { className: 'fa fa-cogs fa-stack-1x fa-inverse' })
+                                _react2.default.createElement('i', { className: 'fa fa-code fa-stack-1x fa-inverse' })
                             ),
                             _react2.default.createElement(
                                 'h4',
                                 { className: 'service-heading' },
-                                'Development Services'
+                                'Application Development'
                             ),
                             _react2.default.createElement(
                                 'p',
                                 { className: 'text-muted' },
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                                'Offering developmet services for both mobile, desktop and web applications with best fit programming language, tools and framework. Utilising the principles of Agile Software development embracing client\'s requirements change and predictable cost schedule delivery '
                             )
                         ),
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-4' },
+                            { className: 'col-md-3' },
                             _react2.default.createElement(
                                 'span',
                                 { className: 'fa-stack fa-4x' },
@@ -34672,41 +34671,17 @@ var Services = function (_React$Component) {
                             _react2.default.createElement(
                                 'h4',
                                 { className: 'service-heading' },
-                                'Responsive Design'
+                                'Website Development'
                             ),
                             _react2.default.createElement(
                                 'p',
                                 { className: 'text-muted' },
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                                'Building and deploying robust and reponsive website using current tools and techniques for interactive User Interfaces such as React library. Also search engine optimized website adhering to latest practices for better visibilty of your content.'
                             )
                         ),
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-4' },
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'fa-stack fa-4x' },
-                                _react2.default.createElement('i', { className: 'fa fa-circle fa-stack-2x text-primary' }),
-                                _react2.default.createElement('i', { className: 'fa fa-lock fa-stack-1x fa-inverse' })
-                            ),
-                            _react2.default.createElement(
-                                'h4',
-                                { className: 'service-heading' },
-                                'Web Security'
-                            ),
-                            _react2.default.createElement(
-                                'p',
-                                { className: 'text-muted' },
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
-                            )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'row text-center' },
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'col-md-4' },
+                            { className: 'col-md-3' },
                             _react2.default.createElement(
                                 'span',
                                 { className: 'fa-stack fa-4x' },
@@ -34716,52 +34691,32 @@ var Services = function (_React$Component) {
                             _react2.default.createElement(
                                 'h4',
                                 { className: 'service-heading' },
-                                'Development Services'
+                                'Business Process Integration with ERP'
                             ),
                             _react2.default.createElement(
                                 'p',
                                 { className: 'text-muted' },
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                                'Assisting ERP systems integration to business such as SAP, Oracle. By customising the system if needed, identifying key master data, mapping your process to ERP transactions, identifying key integration points in your business process cycle and much more.'
                             )
                         ),
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-4' },
+                            { className: 'col-md-3' },
                             _react2.default.createElement(
                                 'span',
                                 { className: 'fa-stack fa-4x' },
                                 _react2.default.createElement('i', { className: 'fa fa-circle fa-stack-2x text-primary' }),
-                                _react2.default.createElement('i', { className: 'fa fa-laptop fa-stack-1x fa-inverse' })
+                                _react2.default.createElement('i', { className: 'fa fa-database fa-stack-1x fa-inverse' })
                             ),
                             _react2.default.createElement(
                                 'h4',
                                 { className: 'service-heading' },
-                                'Responsive Design'
+                                'Data Analytics'
                             ),
                             _react2.default.createElement(
                                 'p',
                                 { className: 'text-muted' },
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'col-md-4' },
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'fa-stack fa-4x' },
-                                _react2.default.createElement('i', { className: 'fa fa-circle fa-stack-2x text-primary' }),
-                                _react2.default.createElement('i', { className: 'fa fa-lock fa-stack-1x fa-inverse' })
-                            ),
-                            _react2.default.createElement(
-                                'h4',
-                                { className: 'service-heading' },
-                                'Web Security'
-                            ),
-                            _react2.default.createElement(
-                                'p',
-                                { className: 'text-muted' },
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                                'Performing data analysis for small business commencing with data mining process, to modelling and visualization. Available to join an analytics team for large organisation.'
                             )
                         )
                     )
@@ -34847,13 +34802,13 @@ var Portfolio = function (_React$Component) {
                             'div',
                             { className: 'col-md-4 col-sm-6 portfolio-item' },
                             _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal1', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/image-iol.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
                                 'div',
                                 { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#portfolioModal1', className: 'portfolio-link portfolio-image', 'data-toggle': 'modal' },
+                                    _react2.default.createElement('img', { src: 'img/portfolio/image-iol.png', className: 'img-responsive', alt: '' })
+                                ),
                                 _react2.default.createElement(
                                     'h4',
                                     null,
@@ -34870,13 +34825,13 @@ var Portfolio = function (_React$Component) {
                             'div',
                             { className: 'col-md-4 col-sm-6 portfolio-item' },
                             _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal2', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/african-independent_rev.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
                                 'div',
                                 { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#portfolioModal2', className: 'portfolio-link portfolio-image', 'data-toggle': 'modal' },
+                                    _react2.default.createElement('img', { src: 'img/portfolio/african-independent_rev.png', className: 'img-responsive', alt: '' })
+                                ),
                                 _react2.default.createElement(
                                     'h4',
                                     null,
@@ -34893,13 +34848,13 @@ var Portfolio = function (_React$Component) {
                             'div',
                             { className: 'col-md-4 col-sm-6 portfolio-item' },
                             _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal3', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/flexi.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
                                 'div',
                                 { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#portfolioModal3', className: 'portfolio-link portfolio-image', 'data-toggle': 'modal' },
+                                    _react2.default.createElement('img', { src: 'img/portfolio/flexi.png', className: 'img-responsive', alt: '' })
+                                ),
                                 _react2.default.createElement(
                                     'h4',
                                     null,
@@ -34908,7 +34863,7 @@ var Portfolio = function (_React$Component) {
                                 _react2.default.createElement(
                                     'p',
                                     { className: 'text-muted' },
-                                    'Business Analyst & System Development'
+                                    'System Development'
                                 )
                             )
                         ),
@@ -34916,17 +34871,17 @@ var Portfolio = function (_React$Component) {
                             'div',
                             { className: 'col-md-4 col-sm-6 portfolio-item' },
                             _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal3', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/BPMN.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
                                 'div',
                                 { className: 'portfolio-caption' },
                                 _react2.default.createElement(
+                                    'a',
+                                    { href: '#portfolioModal3', className: 'portfolio-link portfolio-image', 'data-toggle': 'modal' },
+                                    _react2.default.createElement('img', { src: 'img/portfolio/BPMN.png', className: 'img-responsive', alt: '' })
+                                ),
+                                _react2.default.createElement(
                                     'h4',
                                     null,
-                                    'Cemetry Booking Process- City of Cape Town'
+                                    'Cemetry Booking Process- CfC'
                                 ),
                                 _react2.default.createElement(
                                     'p',
@@ -34939,13 +34894,13 @@ var Portfolio = function (_React$Component) {
                             'div',
                             { className: 'col-md-4 col-sm-6 portfolio-item' },
                             _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal4', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/cas.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
                                 'div',
                                 { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#portfolioModal4', className: 'portfolio-link', 'data-toggle': 'modal' },
+                                    _react2.default.createElement('img', { src: 'img/portfolio/csa_pic.png', className: 'img-responsive', alt: '' })
+                                ),
                                 _react2.default.createElement(
                                     'h4',
                                     null,
@@ -34954,7 +34909,7 @@ var Portfolio = function (_React$Component) {
                                 _react2.default.createElement(
                                     'p',
                                     { className: 'text-muted' },
-                                    'Software Development'
+                                    'System Development'
                                 )
                             )
                         ),
@@ -34962,13 +34917,13 @@ var Portfolio = function (_React$Component) {
                             'div',
                             { className: 'col-md-4 col-sm-6 portfolio-item' },
                             _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal5', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/effcommlogo.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
                                 'div',
                                 { className: 'portfolio-caption' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#portfolioModal5', className: 'portfolio-link', 'data-toggle': 'modal', style: { "marginBottom": "80px" } },
+                                    _react2.default.createElement('img', { src: 'img/portfolio/effcommlogo.png', className: 'img-responsive', alt: '' })
+                                ),
                                 _react2.default.createElement(
                                     'h4',
                                     null,
@@ -34977,30 +34932,7 @@ var Portfolio = function (_React$Component) {
                                 _react2.default.createElement(
                                     'p',
                                     { className: 'text-muted' },
-                                    'Software Development'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'col-md-4 col-sm-6 portfolio-item' },
-                            _react2.default.createElement(
-                                'a',
-                                { href: '#portfolioModal6', className: 'portfolio-link', 'data-toggle': 'modal' },
-                                _react2.default.createElement('img', { src: 'img/portfolio/analytics.png', className: 'img-responsive', alt: '' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'portfolio-caption' },
-                                _react2.default.createElement(
-                                    'h4',
-                                    null,
-                                    'Personal Analytics'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'text-muted' },
-                                    'Data visualization'
+                                    'System Development'
                                 )
                             )
                         )

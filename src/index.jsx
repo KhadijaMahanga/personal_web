@@ -20,7 +20,7 @@ ReactDOM.render(
          <Route path="/services" component={Services}/>
          <Route path="/portfolio" component={Portfolio}/>
          <Route path="/contact" component={Contact}/>
-         <Route path="/blog" component={Blog}/>
+         {/*<Route path="/blog" component={Blog}/>**/}
 
       </Main>
    </Router>,

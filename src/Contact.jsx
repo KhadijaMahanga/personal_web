@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
                   <div className="row">
                       <div className="col-lg-12 text-center">
                           <h2 className="section-heading">Contact</h2>
-                          <h3 className="section-subheading text-muted">Contact me if for any of my services</h3>
+                          <h3 className="section-subheading text-muted">Feel free to contact me if for any of my services</h3>
                       </div>
                   </div>
                   <div className="row">
