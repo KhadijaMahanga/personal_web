@@ -27,6 +27,7 @@ function sendMail(postedData) {
 	}, function (error, response) {
 	   if (error) {
 	       console.log(error);
+			 throw error;
 	   } else {
 	       console.log("Message sent:", response);
 	   }
@@ -34,14 +35,21 @@ function sendMail(postedData) {
 }
 
 function handleMessage(req, res) {
-    var postedData = {};
-    var redirectUrl = "/contact/";
-    fields.forEach(function(field) {
-     postedData[field] = req.body[field];
-     });
-    sendMail(postedData);
-    res.redirect(302, redirectUrl +  "thank");
-    res.status(200).end();
+	try {
+		var postedData = {};
+      var redirectUrl = "/contact-sucess";
+      fields.forEach(function(field) {
+       postedData[field] = req.body[field];
+       });
+      sendMail(postedData);
+      res.redirect(302, redirectUrl);
+      res.status(200).end();
+	} catch (error) {
+		console.log(error);
+		res.redirect(302, "/contact-error");
+      res.status(200).end();
+	}
+
 }
 
 exports.handleMessage = handleMessage;

@@ -22,7 +22,7 @@ export default class Main extends React.Component {
                               <li><Link className="page-scroll" to="/services">Services</Link></li>
                               <li><Link className="page-scroll" to="/portfolio">Portfolio</Link></li>
                               <li><Link className="page-scroll" to="/about">About</Link></li>
-                              <li><Link className="page-scroll" to="https://blog.khadijamahanga.com">Blog</Link></li>
+                              <li><a className="page-scroll" href="https://blog.khadijamahanga.com">Blog</a></li>
                               <li><Link className="page-scroll" to="/contact">Contact</Link></li>
                           </ul>
                       </div>

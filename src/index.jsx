@@ -10,8 +10,10 @@ import About from './About'
 import Contact from './Contact'
 import Services from './Services'
 import Portfolio from './Portfolio'
+import ContactSuccess from './ContactSuccess'
+import ContactError from './ContactError'
+import ContactForm from './ContactForm'
 //import Blog from './Blog'
-import Thank from './Thank'
 
 ReactDOM.render(
    <Router history={browserHistory}>
@@ -21,7 +23,11 @@ ReactDOM.render(
             <Route path="/about" component={About}/>
             <Route path="/services" component={Services}/>
             <Route path="/portfolio" component={Portfolio}/>
-            <Route path="/contact" component={Contact}/>
+            <Contact>
+               <Route path="/contact" component={ContactForm} />
+               <Route path="/contact-sucess" component={ContactSuccess} />
+               <Route path="/contact-error" component={ContactError} />
+            </Contact>
          </Switch>
       </Main>
    </Router>,
