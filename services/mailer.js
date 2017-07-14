@@ -40,7 +40,7 @@ function handleMessage(req, res) {
      postedData[field] = req.body[field];
      });
     sendMail(postedData);
-    res.redirect(302, redirectUrl +  "thankyou");
+    res.redirect(302, redirectUrl +  "thank");
     res.status(200).end();
 }
 

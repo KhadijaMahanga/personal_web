@@ -11,7 +11,6 @@ export default class Contact extends React.Component {
                       <div className="col-lg-12 text-center">
                           <h2 className="section-heading">Contact</h2>
                           <h3 className="section-subheading text-muted">Feel free to contact me if for any of my services</h3>
-                          {this.props.children}
                       </div>
                   </div>
                   <div className="row">

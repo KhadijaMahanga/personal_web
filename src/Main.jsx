@@ -37,20 +37,15 @@ export default class Main extends React.Component {
                           </div>
                           <div className="col-md-4">
                               <ul className="list-inline social-buttons">
-                                  <li><a rel="nofollow" target="_blank"href="https://twitter.com/B_Khadijat"><i className="fa fa-twitter"></i></a>
-                                  </li>
-                                  <li><a rel="nofollow" target="_blank"href="https://www.facebook.com/bhamijiK"><i className="fa fa-facebook"></i></a>
-                                  </li>
-                                  <li><a rel="nofollow" target="_blank"href="https://twitter.com/B_Khadijat"><i className="fa fa-linkedin"></i></a>
-                                  </li>
+                                  <li><a rel="nofollow" target="_blank" href="https://twitter.com/B_Khadijat"><i className="fa fa-twitter"></i></a></li>
+                                  <li><a rel="nofollow" target="_blank" href="https://www.facebook.com/bhamijiK"><i className="fa fa-facebook"></i></a></li>
+                                  <li><a rel="nofollow" target="_blank" href="https://twitter.com/B_Khadijat"><i className="fa fa-linkedin"></i></a></li>
                               </ul>
                           </div>
                           <div className="col-md-4">
                               <ul className="list-inline quicklinks">
-                                  <li><a href="#">Privacy Policy</a>
-                                  </li>
-                                  <li><a href="#">Terms of Use</a>
-                                  </li>
+                                  <li><a href="#">Privacy Policy</a></li>
+                                  <li><a href="#">Terms of Use</a></li>
                               </ul>
                           </div>
                       </div>

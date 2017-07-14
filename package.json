@@ -51,9 +51,10 @@
     "nodemon": "^1.11.0",
     "object-assign": "^4.1.1",
     "react": "^15.6.1",
-    "webpack": "^3.0.0"
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.1"
   },
   "devDependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.17.2"
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import Router from 'react-router';
 // Import routing components{ HashRouter as Router, Route }
-import { BrowserRouter as Router, Route, browserHistory } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, browserHistory } from 'react-router-dom';
 
 import Main from './Main'
 import Home from './Home'
@@ -16,13 +16,13 @@ import Thank from './Thank'
 ReactDOM.render(
    <Router history={browserHistory}>
       <Main>
-         <Route exact path="/" component={Home}/>
-         <Route path="/about" component={About}/>
-         <Route path="/services" component={Services}/>
-         <Route path="/portfolio" component={Portfolio}/>
-         <Route path="/contact" component={Contact}>
-            <Route path="/contact/:message" component={Thank}/>
-         </Route>
+         <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/services" component={Services}/>
+            <Route path="/portfolio" component={Portfolio}/>
+            <Route path="/contact" component={Contact}/>
+         </Switch>
       </Main>
    </Router>,
    document.getElementById('container')
