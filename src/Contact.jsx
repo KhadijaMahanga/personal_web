@@ -2,8 +2,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, browserHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm'
+import ContactSuccess from './ContactSuccess'
+import ContactError from './ContactError'
 
-export default class ContactForm extends React.Component {
+export default class Contact extends React.Component {
     render(){
         return(
            <section id="contact">
@@ -14,7 +17,7 @@ export default class ContactForm extends React.Component {
                           <h3 className="section-subheading text-muted">Feel free to contact me for any of my services</h3>
                       </div>
                   </div>
-                  {this.props.children}
+                  <ContactForm />
               </div>
           </section>
         );

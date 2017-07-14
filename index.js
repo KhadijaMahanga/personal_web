@@ -19,7 +19,6 @@ app.use(express.static(__dirname + '/public'));
 // Handles all routes so you do not get a not found error
 //app.get('/search', searchRenderer.renderPage);
 app.get('*', function (request, response){
-   console.log(request.path);
     response.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 

@@ -13,6 +13,7 @@ import Portfolio from './Portfolio'
 import ContactSuccess from './ContactSuccess'
 import ContactError from './ContactError'
 import ContactForm from './ContactForm'
+import NoMatch from './NoMatch'
 //import Blog from './Blog'
 
 ReactDOM.render(
@@ -23,11 +24,10 @@ ReactDOM.render(
             <Route path="/about" component={About}/>
             <Route path="/services" component={Services}/>
             <Route path="/portfolio" component={Portfolio}/>
-            <Contact>
-               <Route path="/contact" component={ContactForm} />
-               <Route path="/contact-sucess" component={ContactSuccess} />
-               <Route path="/contact-error" component={ContactError} />
-            </Contact>
+            <Route path='/contact' component={Contact}></Route>
+            <Route path='/contact-success' component={ContactSuccess}></Route>
+            <Route path='/contact-error' component={ContactError}></Route>
+            <Route component={NoMatch}/>
          </Switch>
       </Main>
    </Router>,

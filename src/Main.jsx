@@ -22,7 +22,7 @@ export default class Main extends React.Component {
                               <li><Link className="page-scroll" to="/services">Services</Link></li>
                               <li><Link className="page-scroll" to="/portfolio">Portfolio</Link></li>
                               <li><Link className="page-scroll" to="/about">About</Link></li>
-                              <li><a className="page-scroll" href="https://blog.khadijamahanga.com">Blog</a></li>
+                              <li><a className="page-scroll" target="_blank" href="https://blog.khadijamahanga.com">Blog</a></li>
                               <li><Link className="page-scroll" to="/contact">Contact</Link></li>
                           </ul>
                       </div>
@@ -33,7 +33,7 @@ export default class Main extends React.Component {
                   <div className="container">
                       <div className="row">
                           <div className="col-md-4">
-                              <span className="copyright">Copyright &copy; Khadija Mahanga 2017</span>
+                              <span className="copyright"><i className="fa fa-home"></i>Dar-es-salaam, Tanzania</span>
                           </div>
                           <div className="col-md-4">
                               <ul className="list-inline social-buttons">
@@ -44,8 +44,7 @@ export default class Main extends React.Component {
                           </div>
                           <div className="col-md-4">
                               <ul className="list-inline quicklinks">
-                                  <li><a href="#">Privacy Policy</a></li>
-                                  <li><a href="#">Terms of Use</a></li>
+                                  <li><i className="fa fa-envelope"></i>info@khadijamahanga.com</li>
                               </ul>
                           </div>
                       </div>

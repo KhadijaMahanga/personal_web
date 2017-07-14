@@ -12,7 +12,7 @@ export default class About extends React.Component {
                           <h2 className="section-heading">I'm Khadija Bhamiji</h2>
                           <h3 className="section-subheading text-muted"> "Writing beautiful code combined with amazing design to create business solutions and solve social issues is exhilarating!". </h3>
                           <h3 className="section-subheading text-muted"> I am a software developer and an aspiring data scientist based in Dar-es-salaam, Tanzania. I hold a Bachelor of Science in Computer Science and honours in Information Systems.
-                           I have experience in software application development and information systems management. I strive to create and improve user-friendly software applications that solves problems and inform decisions.
+                           I have experience in software application development and information systems management. I strive to create and improve software applications that solve problems and inform decisions.
                            I consider myself a learner. With ever changing technology, I never stop to learn!. Have a look at my <Link to="/portfolio">portfolio</Link>  for acquired skills and complishments so far
                            </h3>
 

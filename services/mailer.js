@@ -4,7 +4,7 @@ const bunyan = require('bunyan');
 const log = bunyan.createLogger({name: "feedback-mailer"});
 const path = require('path');
 
-const transporter = nodemailer.createTransport('smtps://bhamiji09:BHAGMAil1991!!@smtp.gmail.com');
+const transporter = nodemailer.createTransport('smtps://username:password@smtp.gmail.com');
 var fields = ["name", "email", "phoneNumber", "message"];
 var recipients = ["bhamiji09@gmail.com", "k.b.mahanga@outlook.com"];
 
@@ -37,7 +37,7 @@ function sendMail(postedData) {
 function handleMessage(req, res) {
 	try {
 		var postedData = {};
-      var redirectUrl = "/contact-sucess";
+      var redirectUrl = "/contact-success";
       fields.forEach(function(field) {
        postedData[field] = req.body[field];
        });
