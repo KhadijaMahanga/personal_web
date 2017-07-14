@@ -39,6 +39,7 @@
     "browser-sync": "^2.18.12",
     "bunyan": "^1.8.10",
     "express": "^4.15.3",
+    "fs": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.4.2",
     "gulp-header": "^1.8.8",
@@ -46,12 +47,13 @@
     "gulp-nodemon": "^2.2.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
+    "nodemailer": "^4.0.1",
     "nodemon": "^1.11.0",
     "object-assign": "^4.1.1",
     "react": "^15.6.1",
     "webpack": "^3.0.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.5.0"
+    "body-parser": "^1.17.2",
   }
 }

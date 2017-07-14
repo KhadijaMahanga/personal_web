@@ -22,7 +22,7 @@ export default class Main extends React.Component {
                               <li><Link className="page-scroll" to="/services">Services</Link></li>
                               <li><Link className="page-scroll" to="/portfolio">Portfolio</Link></li>
                               <li><Link className="page-scroll" to="/about">About</Link></li>
-                              <li><Link className="page-scroll" to="/blog">Blog</Link></li>
+                              <li><Link className="page-scroll" to="https://blog.khadijamahanga.com">Blog</Link></li>
                               <li><Link className="page-scroll" to="/contact">Contact</Link></li>
                           </ul>
                       </div>
@@ -37,11 +37,11 @@ export default class Main extends React.Component {
                           </div>
                           <div className="col-md-4">
                               <ul className="list-inline social-buttons">
-                                  <li><a href="#"><i className="fa fa-twitter"></i></a>
+                                  <li><a rel="nofollow" target="_blank"href="https://twitter.com/B_Khadijat"><i className="fa fa-twitter"></i></a>
                                   </li>
-                                  <li><a href="#"><i className="fa fa-facebook"></i></a>
+                                  <li><a rel="nofollow" target="_blank"href="https://www.facebook.com/bhamijiK"><i className="fa fa-facebook"></i></a>
                                   </li>
-                                  <li><a href="#"><i className="fa fa-linkedin"></i></a>
+                                  <li><a rel="nofollow" target="_blank"href="https://twitter.com/B_Khadijat"><i className="fa fa-linkedin"></i></a>
                                   </li>
                               </ul>
                           </div>

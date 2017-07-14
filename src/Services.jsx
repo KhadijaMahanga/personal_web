@@ -28,7 +28,7 @@ export default class Services extends React.Component {
                               <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
                            </span>
                            <h4 className="service-heading">Website Development</h4>
-                           <p className="text-muted">Building and deploying robust and reponsive website using current tools and techniques for interactive User Interfaces such as React library. Also search engine optimized website adhering to latest practices for better visibilty of your content.</p>
+                           <p className="text-muted">Building and deploying robust and reponsive website using current tools and techniques, interactive User Interfaces such as React library and search engine optimized website adhering to latest practices for better visibilty of your content.</p>
                        </div>
                        <div className="col-md-3">
                            <span className="fa-stack fa-4x">

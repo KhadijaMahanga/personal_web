@@ -10,7 +10,8 @@ import About from './About'
 import Contact from './Contact'
 import Services from './Services'
 import Portfolio from './Portfolio'
-import Blog from './Blog'
+//import Blog from './Blog'
+import Thank from './Thank'
 
 ReactDOM.render(
    <Router history={browserHistory}>
@@ -19,9 +20,9 @@ ReactDOM.render(
          <Route path="/about" component={About}/>
          <Route path="/services" component={Services}/>
          <Route path="/portfolio" component={Portfolio}/>
-         <Route path="/contact" component={Contact}/>
-         {/*<Route path="/blog" component={Blog}/>**/}
-
+         <Route path="/contact" component={Contact}>
+            <Route path="/contact/:message" component={Thank}/>
+         </Route>
       </Main>
    </Router>,
    document.getElementById('container')

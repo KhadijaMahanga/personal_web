@@ -10,7 +10,9 @@ export default class About extends React.Component {
                   <div className="row">
                       <div className="col-lg-12 text-center">
                           <h2 className="section-heading">About Me!</h2>
-                          <h3 className="section-subheading text-muted">I am a software developer and an aspiring data scientist located in Dar-es-salaam, Tanzania. I enjoy problem solving and passionate about applying technology to create business solutions and solve social issues. Here's a road map to where I am, have a look at my <Link to="/portfolio">portfolio</Link>  for acquired skills and complishments so far </h3>
+                          <h3 className="section-subheading text-muted"> I am a software developer and an aspiring data scientist located in Dar-es-salaam, Tanzania. </h3>
+                          <h3 className="section-subheading text-muted"> "Applying technology to create business solutions and solve social issues is exhilarating!". </h3>
+                          <h3 className="section-subheading text-muted"> Learning everyday, with every encounter..Here's a road map to where I am and have a look at my <Link to="/portfolio">portfolio</Link>  for acquired skills and complishments so far </h3>
                       </div>
                   </div>
                   <div className="row">
